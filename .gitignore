@@ -1,0 +1,73 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configurações e logs
+*.log
+*.out
+*.err
+
+# Dados temporários
+*.tmp
+*.temp
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de execução do TensorBoard
+logs/
+runs/
+
+# Checkpoints e modelos treinados
+checkpoints/
+*.ckpt
+*.h5
+*.pth
+*.pt
+*.pb
+
+# Dados grandes ou brutos (opcional, se não quiser subir os datasets)
+data/
+datasets/
+*.zip
+*.tar.gz
+*.npz
+*.npy
+*.csv
+
+# Arquivos de configuração de pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de testes
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+test-output/
+
+# Arquivos de exportação Jupyter
+*.nbconvert.ipynb
