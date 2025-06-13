@@ -1,5 +1,5 @@
 # DeepLeaningClassRoom
-=======
+
 # Face Detection with MediaPipe and OpenCV
 
 This is a simple face detection project built with Python, OpenCV, and MediaPipe.  
