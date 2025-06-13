@@ -19,5 +19,4 @@ This project captures video from your webcam, detects faces in each frame, and d
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/cairon-henrique-60/VideoCaptureMediaPipe.git
