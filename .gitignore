@@ -1,73 +1,62 @@
-# Ambiente virtual
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
 venv/
+ENV/
 env/
 .venv/
 
-# Cache do Python
-__pycache__/
-*.py[cod]
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints
 
-# Arquivos do Jupyter Notebook
-.ipynb_checkpoints/
+# PyCharm or VSCode settings
+.idea/
+.vscode/
 
-# Configurações e logs
-*.log
-*.out
-*.err
-
-# Dados temporários
-*.tmp
-*.temp
-
-# Arquivos do sistema operacional
+# Mac OS / Windows / Linux system files
 .DS_Store
 Thumbs.db
 
-# Arquivos de IDEs
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+# Logs
+*.log
 
-# Arquivos de execução do TensorBoard
-logs/
-runs/
+# MediaPipe generated cache (sometimes creates folders)
+mediapipe/modules/face_detection/*.tflite
+mediapipe/models/
+mediapipe/temp/
 
-# Checkpoints e modelos treinados
-checkpoints/
-*.ckpt
-*.h5
-*.pth
-*.pt
-*.pb
+# OpenCV temporary files (if any)
+opencv_cache/
+*.avi
+*.mp4
+*.png
+*.jpg
 
-# Dados grandes ou brutos (opcional, se não quiser subir os datasets)
-data/
-datasets/
-*.zip
-*.tar.gz
-*.npz
-*.npy
-*.csv
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Arquivos de configuração de pacotes
+# Pip environment and dependency files
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Arquivos de testes
-htmlcov/
-.tox/
-.coverage
-coverage.xml
-*.cover
-.cache
-nosetests.xml
-test-output/
-
-# Arquivos de exportação Jupyter
-*.nbconvert.ipynb
+# dotenv files (optional)
+.env
